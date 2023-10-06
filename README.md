@@ -1,17 +1,17 @@
 # Auto-Watering
-Auto-watering system for Arduinos.
+Auto-watering system for tray watering plants, using an Arduino, solenoid valve,
+and water sensors.
 
 ## Directions
 ### Sensors and Solenoid
-Ensure your water source is being regulated by the solenoid.
 Have two water sensors (one above and one below) connected
 to the Arduino as specified at the top of the ino file.
 Additionally, you'll want a reset button and a light. Their
 pins are also specified in the ino file.
 
-Ideally you'll have the water emptying into a tub where
-the water sensors are. This is how this project is intended
-to be used.
+The solenoid, used to release
+water from the reservoir, may need to be energized using a relay, as
+we have done. The water should empty into a tub where the water sensors are.
 
 ### Arduino
 These directions are for the arduino-cli on Linux, look
