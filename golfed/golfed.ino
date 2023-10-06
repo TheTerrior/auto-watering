@@ -4,9 +4,9 @@
 #define RESET_PIN 5
 #define INDICATOR_PIN 4
 
-bool sol = false; //the state of the solenoid
-bool close = false; //solenoid should lock off
-unsigned long time = 0; //time solenoid has been open
+bool sol; //the state of the solenoid
+bool close; //solenoid should lock off
+unsigned long time; //time solenoid has been open
 
 void setup() {
     pinMode(SOLENOID_PIN, OUTPUT);
