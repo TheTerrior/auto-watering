@@ -4,7 +4,7 @@ and water sensors.
 
 ## Directions
 ### Sensors and Solenoid
-Have two water sensors (one above and one below) connected
+Have two water sensors (one upper and one lower) connected
 to the Arduino as specified at the top of the ino file.
 Additionally, you'll want a reset button and a light. Their
 pins are also specified in the ino file.
